@@ -1,6 +1,9 @@
 import streamlit as st
 
-st.title("🎈 My new app")
+st.title("Adote Animais")
+st.header("Cachorros, gatos, coelhos e aves")
+st.subheader ("Resgatados das ruas e de maus tratos")
 st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+    "Pequenas ações geram grandes mudanças. Adote. Faça mudança nas vidas dos animais."
 )
+
