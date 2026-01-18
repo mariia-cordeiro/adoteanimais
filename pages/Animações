@@ -1,0 +1,17 @@
+import requests
+import streamlit as st
+from streamlit_lottie import st_lottie
+
+st.title("Preencha nosso formulário")
+
+def carregar_animacao(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return None 
+    return r.json() 
+
+url_animacao = "https://lottie.host/68a71902-0a0f-41ee-90eb-5fc38712caef/RFaS4NEsRA.json"
+animacaoChat = carregar_animacao(url_animacao)
+
+st_lottie(animacaoChat, key=animacaoChat)

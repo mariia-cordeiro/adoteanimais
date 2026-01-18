@@ -7,7 +7,7 @@ html_code = """
 st.markdown(html_code, unsafe_allow_html=True)
 
 st.markdown("""---""")
-st.subheader ("Cachorros e gatos resgatados das ruas e de maus tratos")
+st.subheader ("Cachorros resgatados das ruas e de maus tratos")
 st.write(
     "Pequenas ações transformam destinos. Adote! Mude a vida de um animal."
 )
@@ -21,7 +21,7 @@ st.markdown(""""
 
 st.write("Faça um upload do seu pet ou verifique os animais disponíveis para adoção:")
 st.write("Para realizar o upload, clique aqui:]
-         imagem = st.file_uploader("Escolha uma imagem do seu pet", type=["jpg", "png", "jpeg"])
+imagem = st.file_uploader("Escolha uma imagem do seu pet", type=["jpg", "png", "jpeg"])
 
 colunas = st.columns(5)
 with colunas[0]:
